@@ -30,9 +30,9 @@ if(isset($_SESSION['u_namefirst'])){
 
 <?php
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "ahmed123123";
+$dbServername = "localhostddac.mysql.database.azure.com";
+$dbUsername = "ahmedalhaddad@localhostddac";
+$dbPassword = "Ahmed123123";
 $dbName = "logindatabase";
 
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
@@ -51,9 +51,9 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 			<br>
 <?php
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "ahmed123123";
+$dbServername = "localhostddac.mysql.database.azure.com";
+$dbUsername = "ahmedalhaddad@localhostddac";
+$dbPassword = "Ahmed123123";
 $dbName = "logindatabase";
 
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
@@ -75,9 +75,9 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
 			<?php
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "ahmed123123";
+$dbServername = "localhostddac.mysql.database.azure.com";
+$dbUsername = "ahmedalhaddad@localhostddac";
+$dbPassword = "Ahmed123123";
 $dbName = "logindatabase";
 
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
@@ -97,9 +97,9 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
 			<?php
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "ahmed123123";
+$dbServername = "localhostddac.mysql.database.azure.com";
+$dbUsername = "ahmedalhaddad@localhostddac";
+$dbPassword = "Ahmed123123";
 $dbName = "logindatabase";
 
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
