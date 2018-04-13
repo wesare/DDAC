@@ -20,14 +20,14 @@ if (isset($_POST['submit'])) {
 
 	} else{
 		//check if input is valid
-		if (!preg_match("/^[a-zA-Z]*$/" , $namefirst) || !preg_match("/^[a-zA-]*$/" , $namelast)){
+		if (!preg_match("/^[a-zA-Z]*$/" , $namefirst) || !preg_match("/^[a-zA-Z]*$/" , $namelast)){
 
 		header("Location: ../signup.php?signup=invalid");
 		exit();
 		} else{
 			//check email if valid
 			if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-				header("Location: ../signup.php?signup=email");
+				header("Location: ../signup.php?signup=changeemail");
 				exit();
 			} else{
 				$sql = "SELECT * FROM userinfo WHERE user_uid='$uid'";
